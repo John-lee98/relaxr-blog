@@ -1,0 +1,212 @@
+header {
+	background: #033048;
+}
+
+.clearfix::after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+header h1{
+	font-family: "Open Sans", sans-serif;
+	color: #FFF;
+	font-weight: 800;
+	font-size: 50px;
+	float: left;
+}
+
+.navBar{
+	font-family: "Open Sans", sans-serif;
+	color: #f9e42e;
+	font-weight: 300;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+body {
+	background-color:  #f0efef
+	color: #121212;
+}
+
+nav {
+	padding: 15px 0 20px 650px;
+
+}
+
+h2 {
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	margin: 50px 0 25px 0px;
+}
+
+.blogPic {
+	width: 100%;
+	display: block;
+
+}
+
+.paragraph {
+	
+	margin-top: 20px;
+	
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+
+}
+
+.paragraph::first-letter {
+	font-size: 80px;
+	font-family: "Open Sans", sans-serif;
+	float: left;
+	font-weight: 400;
+
+}
+
+.readMore {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	margin-left: 590px;
+	text-decoration: none;
+	color: #033048;
+}
+
+.learnMore {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	color: #033048;
+}
+
+aside h3 {
+	color: #033048;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	font-size: 32px; 	
+	padding-top: 50px;
+	padding-bottom: 25px;
+	
+}
+
+.firstSection {
+	float: left;
+	width: 700px;
+	text-align: left;
+}
+
+.lineBreak {
+	width:700px;
+	
+}
+
+.sideBarList {
+	font-size: 24px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	color: #033048;
+	text-decoration: none;
+
+}
+
+.sideBar {
+	width: 240px;
+	float: left;
+	padding-left: 20px;
+}
+
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.bottomSection {
+	clear: both;
+	background-image: url(../images/testimonial_bg.jpg);
+	color: #FFF;
+	font-size: 28px;
+	font-family: "Open Sans", sans-serif;
+	padding: 80px;
+	text-align: center;
+}
+
+li {
+	padding-bottom: 8px;
+}
+
+.authorOfQuote {
+	color:#FFF;
+	font-weight: 800;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	
+}
+
+.quote {
+	width: 400px;
+	padding-left: 350px;
+}
+
+.signUpLink {
+	color: #000;
+	text-decoration: none;
+}
+
+.signUpLinkBg {
+	background-color: #f9e42e;
+	padding: 30px;
+	text-align: center;
+}
+
+.button {
+	color: #FFF;
+	font-family: "Open Sans", sans-serif;
+	font-size: 28px;
+	padding: 5px;
+	font-weight: 800;
+	background-color: #033048;
+	border: none;
+}
+
+footer {
+	background-color: #000;
+	padding: 50px;
+}
+
+footer div.footerText h4 {
+	color: #f9e42e;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+
+}
+
+footer div.footerText img.twitterPic {
+	padding-left: 520px;
+	padding-top: 30px;
+}
+
+footer div.footerText img.fbPic {
+	padding-left: 60px;
+	padding-top: 30px;
+}
+
+footer div.footerText p{
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+
+
+
+
